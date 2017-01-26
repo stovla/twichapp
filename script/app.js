@@ -3,7 +3,7 @@ const channels = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbec
 var url1 = "https://wind-bow.gomix.me/twitch-api/streams/";
 var url2 = "https://wind-bow.gomix.me/twitch-api/channels/" ;
 
-$(function (){
+(function (){
     var displayName;
     var html = "";
     // get response from primary api
