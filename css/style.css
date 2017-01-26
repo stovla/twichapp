@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Dimitri";
+    src: url("../fonts/dimitri/DIMIS___.TTF");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.jumbotron {
+    background: rebeccapurple;
+}
+header {
+    font-family: "Dimitri";
+}
+.twitch-logo {
+    margin: 0 auto;
+    height: 50px;
+}
+.navbar-default {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+}
+ul {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ul > li {
+    display: inline-block;
+
+}
+.logo {
+    width: 60px;
+    margin: 10px;
+    float: left;
+}
+.active {
+    padding: 5px;
+}
+.row {
+    margin: 10px auto;
+    border: 1px solid slategrey;
+    border-radius: 10px;
+}
+.online {
+    background: palegreen;
+}
+.offline {
+    background: indianred;
+}
+button {
+    color: rebeccapurple;
+}
